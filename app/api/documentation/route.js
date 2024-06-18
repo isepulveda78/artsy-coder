@@ -4,9 +4,10 @@ import Documenation from "@/models/Documentation"
 //Get /api/documentation
 export const GET = async () => {
     try {
-
     await connectDB()
+
     const documentation = await Documenation.find({})
+
     return new Response(JSON.stringify(documentation), { status: 200 })
 
     } catch (error) {
@@ -18,9 +19,11 @@ export const GET = async () => {
 //Post /api/documentation
 export const POST = async (request) => {
     try {
+        await connectDB()
+        
         const { theme, pageText } = await request.json()
 
-        const newPageText = new Documentation({
+        const newPageText = new Documenation({
             theme,
             pageText
         })

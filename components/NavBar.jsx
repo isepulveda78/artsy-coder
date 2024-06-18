@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image"
-import logo from '@/assets/images/logos/logo.png'
 import Link from "next/link"
 import { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"

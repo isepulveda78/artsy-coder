@@ -36,8 +36,8 @@ const SingleShopItem = () => {
               <div className='col-md-4 col-sm-12 my-2'>
                 <div className='card'>
                     <div className='card-body'>
-                      <div class="d-grid gap-2 text-center">
-                        <button class="btn btn-primary" type="button">Buy</button>
+                      <div className="d-grid gap-2 text-center">
+                        <button className="btn btn-primary" type="button">Buy</button>
                       </div>
                       <div className='text-center my-2'>
                       <Link className='text-decoration-none' href="/documentation"><small>Demo</small></Link><small>|</small> <Link className='text-decoration-none' href="/documentation"><small>Documenation</small></Link>

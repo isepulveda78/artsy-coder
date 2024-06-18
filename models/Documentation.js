@@ -2,13 +2,13 @@ import { Schema, model, models} from 'mongoose'
 
 const DocumenationSchema = new Schema({
     theme: {
-        type: Schema.Types.ObjectId,
-        ref: 'theme',
-        required: true
+        type: String,
+        required: true,
     },
     pageText: {
-        type: String
-    }
+        type: String,
+        required: true,
+    },
 },
     {
         timestamps: true

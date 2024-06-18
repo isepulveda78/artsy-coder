@@ -1,9 +1,11 @@
 
 import "@/assets/styles/styles.css"
 import "@/assets/styles/global.css"
-import NavBar from "@/components/NavBar";
-import Script from "next/script";
-import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar"
+import Script from "next/script"
+import Footer from "@/components/Footer"
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export const metadata = {
   title: "Artsy Coder",
@@ -20,6 +22,7 @@ export default function RootLayout({ children }) {
               {children}
             </main>
         <Footer />
+        <ToastContainer />
         <Script src="/js/bootstrap.bundle.js" />
         </body>
     </html>
