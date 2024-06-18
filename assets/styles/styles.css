@@ -1,0 +1,124 @@
+@font-face {
+    font-family: varelaRound;
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.varelaRound{
+    font-family: varelaRound, sans-serif !important;
+}
+.wrapper{
+    flex: 1 0 auto;
+}
+.logo{
+    height: 3rem !important;
+}
+.shop-single{
+    margin-top: 5rem;
+}
+.product-card a{
+    color: #2f3542;
+    text-decoration: none;
+    border: transparent !important;
+}
+.product-card .card{ 
+    border: transparent !important;
+}
+.feature-list li{
+    list-style: none !important;
+}
+.banner-margin{
+    margin-top: 60px;
+}
+@media (max-width: 720px){
+    .banner-margin{
+        margin-top: 55px;
+    }
+}
+.documentation .inactive {
+    font-weight: 900 !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    margin-bottom: 55px !important;
+}
+.documentation .inactive a{
+    color: #2f3542 !important;
+}
+.documentation .active  {
+    color: #3742fa !important;
+    font-weight: 900 !important;
+    font-size: 14px !important;
+    text-decoration: none;
+}
+.documentation p{
+    text-indent: 25px;
+    line-height: 40px;
+}
+.documentation .breadcrumb{
+    margin-top: -100px;
+    margin-bottom: -25px;
+}
+@media (max-width: 576px){
+    .documentation .breadcrumb{
+        margin-top: 20px;
+        margin-bottom: -25px;
+    }
+}
+.category{
+    top: 1rem ;
+    right: 1rem;
+}
+.background{
+    background: radial-gradient(51.65% 40.09% at 100% 48.78%, rgba(78, 79, 235, .26) 0, transparent 100%);
+    background-repeat: no-repeat;
+}
+.btn-primary-glow{
+    -webkit-box-shadow:0px 0px 55px 0px rgba(55,65,250,0.9);
+    -moz-box-shadow: 0px 0px 55px 0px rgba(55,65,250,0.9);
+    box-shadow: 0px 0px 55px 0px rgba(55,65,250,0.9);
+}
+.logo{
+    font-family: nexa, sans-serif !important;
+    width: 100% !important;
+}
+.negative-margin-title{
+    margin-top: -150px;
+}
+@media (max-width: 576px){
+    .negative-margin-title{
+        margin-top: 0px;
+    }
+}
+.bg-gray{
+    background: #f9f6f6;
+}
+.svg-border-angled {
+    padding-top: 3rem;
+}
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
+/* Sidebar */
+
+.footer {
+    flex-shrink: 0;
+}
